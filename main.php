@@ -72,3 +72,12 @@ for ($i = 1; $i <= 100; $i++) {
         echo $i . "\n";
     }
 }
+
+// Atividade 5
+echo "--- Atividade 5 ---" . "\n";
+
+for ($i = 1; $i <= 10; $i++) { echo "Tabuada do 4: 4 x $i = " . (4 * $i) . "\n"; }
+echo "\n";
+for ($i = 1; $i <= 10; $i++) { echo "Tabuada do 7: 7 x $i = " . (7 * $i) . "\n"; }
+echo "\n";
+for ($i = 1; $i <= 10; $i++) { echo "Tabuada do 12.879,5: 12.879,5 x $i = " . (12.8795 * $i) . "\n"; }

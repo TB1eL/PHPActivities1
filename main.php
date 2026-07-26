@@ -81,3 +81,9 @@ echo "\n";
 for ($i = 1; $i <= 10; $i++) { echo "Tabuada do 7: 7 x $i = " . (7 * $i) . "\n"; }
 echo "\n";
 for ($i = 1; $i <= 10; $i++) { echo "Tabuada do 12.879,5: 12.879,5 x $i = " . (12.8795 * $i) . "\n"; }
+
+// Atividade 6
+echo "--- Atividade 6 ---" . "\n";
+
+function saudar($nome) { echo "Olá, $nome!" . "\n"; }
+saudar("Dionathan Delicia");

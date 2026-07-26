@@ -117,3 +117,17 @@ $racas[] = "Papagaio Branco";
 foreach ($racas as $raca) {
     echo $raca . "\n";
 }
+
+// Atividade 10
+echo "--- Atividade 10 ---" . "\n";
+
+$informacoes = array(
+    "Nome" => "Dionathan Delicia",
+    "Idade" => "Novo o suficiente...",
+    "Cidade" => "Guarapuava",
+    "Tchola" => "Sim"
+);
+
+foreach ($informacoes as $chave => $valor) {
+    echo "$chave: $valor" . "\n";
+}

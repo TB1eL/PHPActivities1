@@ -108,3 +108,12 @@ $memes = array("Dame tu cosita", "Troll Face", "Serjão berrateiro", "Irineu, vo
 foreach ($memes as $meme) {
     echo $meme . "\n";
 }
+
+// Atividade 9
+echo "--- Atividade 9 ---" . "\n";
+
+$racas = array("Papagaio Azul", "Papagaio Verde", "Papagaio Amarelo", "Papagaio Vermelho", "Papagaio Roxo");
+$racas[] = "Papagaio Branco";
+foreach ($racas as $raca) {
+    echo $raca . "\n";
+}

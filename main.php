@@ -63,3 +63,12 @@ switch ($operacao) {
     default:
         echo "Operação inválida!" . "\n";
 }
+
+// Atividade 4
+echo "--- Atividade 4 ---" . "\n";
+
+for ($i = 1; $i <= 100; $i++) {
+    if ($i % 2 == 0) {
+        echo $i . "\n";
+    }
+}

@@ -87,3 +87,16 @@ echo "--- Atividade 6 ---" . "\n";
 
 function saudar($nome) { echo "Olá, $nome!" . "\n"; }
 saudar("Dionathan Delicia");
+
+// Atividade 7
+echo "--- Atividade 7 ---" . "\n";
+
+function calcular($num1, $num2) {
+    $soma = $num1 + $num2;
+    $subtracao = $num1 - $num2;
+    $frase = "Esses números são incríveis!";
+    echo "A soma de $num1 e $num2 é: $soma" . "\n";
+    echo "A subtração de $num1 e $num2 é: $subtracao" . "\n";
+    echo "$frase" . "\n";
+}
+calcular(10, 5);

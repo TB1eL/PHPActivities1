@@ -100,3 +100,11 @@ function calcular($num1, $num2) {
     echo "$frase" . "\n";
 }
 calcular(10, 5);
+
+// Atividade 8
+echo "--- Atividade 8 ---" . "\n";
+
+$memes = array("Dame tu cosita", "Troll Face", "Serjão berrateiro", "Irineu, você não sabe nem eu", "Fuscão preto, tu é feito de aço!");
+foreach ($memes as $meme) {
+    echo $meme . "\n";
+}

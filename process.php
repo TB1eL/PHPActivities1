@@ -37,6 +37,28 @@ switch ($operacao) {
         break;
 }
 
+// Atividade 13
+echo "<h1>--- Atividade 13 ---</h1>";
+$nome  = $_POST['nome'];
+$email = $_POST['email'];
+$telefone = $_POST['telefone'];
+$data_nascimento = $_POST['data_nascimento'];
+$cidade = $_POST['cidade'];
+$estado = $_POST['estado'];
+$sexo = $_POST['sexo'];
+$curso = $_POST['curso'];
+$observacoes = $_POST['observacoes'];
+
+echo "<p>Nome: $nome</p>";
+echo "<p>Email: $email</p>";
+echo "<p>Telefone: $telefone</p>";
+echo "<p>Data de Nascimento: $data_nascimento</p>";
+echo "<p>Cidade: $cidade</p>";
+echo "<p>Estado: $estado</p>";
+echo "<p>Sexo: $sexo</p>";
+echo "<p>Curso: $curso</p>";
+echo "<p>Observações: $observacoes</p>";
+
 echo "<br><br><a href='index.php'>Voltar</a>";
 
 ?>
